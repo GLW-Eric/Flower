@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>用户名</string>
+		<key>information</key>
+		<string>gu_d_luck</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>性别</string>
+		<key>information</key>
+		<string>男</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>邮箱</string>
+		<key>information</key>
+		<string>971339404@qq.com</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>电话</string>
+		<key>information</key>
+		<string>15834100436</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>地址</string>
+		<key>information</key>
+		<string>山西太原</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>个性签名</string>
+		<key>information</key>
+		<string>花若盛开，蝴蝶自来</string>
+	</dict>
+</array>
+</plist>

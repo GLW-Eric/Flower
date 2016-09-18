@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EC77305CB20C732B73D8A77 /* libPods-Flower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F931879617F6784CEC3E7FD /* libPods-Flower.a */; };
+		3F376FC11CE0231D0056FCE8 /* GLWInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F376FBF1CE0231D0056FCE8 /* GLWInformationController.m */; };
+		3F376FC51CE02E940056FCE8 /* GLWInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F376FC41CE02E940056FCE8 /* GLWInformationModel.m */; };
+		3F376FC71CE02F5E0056FCE8 /* GLWInformationList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F376FC61CE02F5E0056FCE8 /* GLWInformationList.plist */; };
+		3F8931431CDC21C500CC7002 /* GLWNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8931421CDC21C500CC7002 /* GLWNewsModel.m */; };
+		3F8931471CDC33BC00CC7002 /* GLWNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8931451CDC33BC00CC7002 /* GLWNewsCell.m */; };
+		3F8931481CDC33BC00CC7002 /* GLWNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8931461CDC33BC00CC7002 /* GLWNewsCell.xib */; };
+		3F89314C1CDCED5800CC7002 /* GLWNewsSingelImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89314A1CDCED5800CC7002 /* GLWNewsSingelImageCell.m */; };
+		3F89314D1CDCED5800CC7002 /* GLWNewsSingelImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F89314B1CDCED5800CC7002 /* GLWNewsSingelImageCell.xib */; };
+		3F92D07B1CDA29E9002BF405 /* GLWSubHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F92D07A1CDA29E9002BF405 /* GLWSubHomeController.m */; };
+		3F92D07E1CDA3892002BF405 /* GLWImageScrollHearderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F92D07D1CDA3892002BF405 /* GLWImageScrollHearderView.m */; };
+		3F92D0811CDA389E002BF405 /* GLWScrollModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F92D0801CDA389E002BF405 /* GLWScrollModel.m */; };
+		3F9B69F11CDE167A00C0C6DD /* GLWImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B69F01CDE167A00C0C6DD /* GLWImageModel.m */; };
+		3FA512F41CD4D3E300524323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA512F31CD4D3E300524323 /* main.m */; };
+		3FA512F71CD4D3E300524323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA512F61CD4D3E300524323 /* AppDelegate.m */; };
+		3FA512FF1CD4D3E300524323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA512FE1CD4D3E300524323 /* Assets.xcassets */; };
+		3FA513021CD4D3E300524323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA513001CD4D3E300524323 /* LaunchScreen.storyboard */; };
+		3FBEB0121CDEF67C007CA8AD /* GLWShowWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB0101CDEF67C007CA8AD /* GLWShowWebViewController.m */; };
+		3FBEB0131CDEF67C007CA8AD /* GLWShowWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB0111CDEF67C007CA8AD /* GLWShowWebViewController.xib */; };
+		3FBEB0161CDF188D007CA8AD /* GLWEncyclopediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB0151CDF188D007CA8AD /* GLWEncyclopediaModel.m */; };
+		3FBEB0181CDF1FC2007CA8AD /* EncyclopediaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB0171CDF1FC2007CA8AD /* EncyclopediaList.plist */; };
+		3FBEB01B1CDF56FB007CA8AD /* GLWEncyClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB01A1CDF56FB007CA8AD /* GLWEncyClassViewController.m */; };
+		3FBEB01F1CDF58B0007CA8AD /* GLWEncyViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB01D1CDF58B0007CA8AD /* GLWEncyViewCell.m */; };
+		3FBEB0201CDF58B0007CA8AD /* GLWEncyViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB01E1CDF58B0007CA8AD /* GLWEncyViewCell.xib */; };
+		3FBEB0231CDF5A0D007CA8AD /* GLWEncyClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB0221CDF5A0D007CA8AD /* GLWEncyClassModel.m */; };
+		3FBEB0271CDF9FF2007CA8AD /* GLWLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB0251CDF9FF2007CA8AD /* GLWLoginController.m */; };
+		3FBEB0281CDF9FF2007CA8AD /* GLWLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB0261CDF9FF2007CA8AD /* GLWLoginController.xib */; };
+		3FBEB02C1CDFAA9A007CA8AD /* GLWRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB02A1CDFAA9A007CA8AD /* GLWRegisterController.m */; };
+		3FBEB02D1CDFAA9A007CA8AD /* GLWRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB02B1CDFAA9A007CA8AD /* GLWRegisterController.xib */; };
+		3FCA54D41CDB68CB00612E79 /* GLWSubHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA54D31CDB68CB00612E79 /* GLWSubHomeModel.m */; };
+		3FCA54D71CDB7EA100612E79 /* GLWNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA54D61CDB7EA100612E79 /* GLWNewsController.m */; };
+		3FCA54DA1CDBA48A00612E79 /* GLWVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA54D91CDBA48A00612E79 /* GLWVideoViewController.m */; };
+		3FCA54DD1CDBA49500612E79 /* GLWImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA54DC1CDBA49500612E79 /* GLWImageViewController.m */; };
+		3FCD2DD31CDD803E003AAB16 /* GLWVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD2DD21CDD803E003AAB16 /* GLWVideoModel.m */; };
+		3FCD2DD71CDD84CA003AAB16 /* GLWVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD2DD51CDD84CA003AAB16 /* GLWVideoCell.m */; };
+		3FCD2DD81CDD84CA003AAB16 /* GLWVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD2DD61CDD84CA003AAB16 /* GLWVideoCell.xib */; };
+		3FCE9CF01CD6018900385620 /* GLWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE9CEF1CD6018900385620 /* GLWBaseViewController.m */; };
+		3FCE9CF61CD601B200385620 /* GLWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE9CF51CD601B200385620 /* GLWRootViewController.m */; };
+		3FCE9D021CD6036D00385620 /* GLWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE9D011CD6036D00385620 /* GLWHomeViewController.m */; };
+		3FCE9D051CD6039500385620 /* GLWEncyclopediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE9D041CD6039500385620 /* GLWEncyclopediaViewController.m */; };
+		3FCE9D081CD603A300385620 /* GLWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE9D071CD603A300385620 /* GLWMineViewController.m */; };
+		3FD798DC1CDAFC9A00E3BDE6 /* GLWSubHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD798DA1CDAFC9A00E3BDE6 /* GLWSubHomeCell.m */; };
+		3FD798DF1CDB025000E3BDE6 /* GLWSubHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD798DE1CDB025000E3BDE6 /* GLWSubHomeCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CEAA388D0845ADF6B9F16B /* Pods-Flower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flower.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flower/Pods-Flower.release.xcconfig"; sourceTree = "<group>"; };
+		3F376FBE1CE0231D0056FCE8 /* GLWInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWInformationController.h; sourceTree = "<group>"; };
+		3F376FBF1CE0231D0056FCE8 /* GLWInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWInformationController.m; sourceTree = "<group>"; };
+		3F376FC31CE02E940056FCE8 /* GLWInformationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWInformationModel.h; sourceTree = "<group>"; };
+		3F376FC41CE02E940056FCE8 /* GLWInformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWInformationModel.m; sourceTree = "<group>"; };
+		3F376FC61CE02F5E0056FCE8 /* GLWInformationList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GLWInformationList.plist; sourceTree = "<group>"; };
+		3F8931411CDC21C500CC7002 /* GLWNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWNewsModel.h; sourceTree = "<group>"; };
+		3F8931421CDC21C500CC7002 /* GLWNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWNewsModel.m; sourceTree = "<group>"; };
+		3F8931441CDC33BC00CC7002 /* GLWNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWNewsCell.h; sourceTree = "<group>"; };
+		3F8931451CDC33BC00CC7002 /* GLWNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWNewsCell.m; sourceTree = "<group>"; };
+		3F8931461CDC33BC00CC7002 /* GLWNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWNewsCell.xib; sourceTree = "<group>"; };
+		3F8931491CDCED5800CC7002 /* GLWNewsSingelImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWNewsSingelImageCell.h; sourceTree = "<group>"; };
+		3F89314A1CDCED5800CC7002 /* GLWNewsSingelImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWNewsSingelImageCell.m; sourceTree = "<group>"; };
+		3F89314B1CDCED5800CC7002 /* GLWNewsSingelImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWNewsSingelImageCell.xib; sourceTree = "<group>"; };
+		3F92D0791CDA29E9002BF405 /* GLWSubHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWSubHomeController.h; sourceTree = "<group>"; };
+		3F92D07A1CDA29E9002BF405 /* GLWSubHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWSubHomeController.m; sourceTree = "<group>"; };
+		3F92D07C1CDA3892002BF405 /* GLWImageScrollHearderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWImageScrollHearderView.h; sourceTree = "<group>"; };
+		3F92D07D1CDA3892002BF405 /* GLWImageScrollHearderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWImageScrollHearderView.m; sourceTree = "<group>"; };
+		3F92D07F1CDA389E002BF405 /* GLWScrollModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWScrollModel.h; sourceTree = "<group>"; };
+		3F92D0801CDA389E002BF405 /* GLWScrollModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWScrollModel.m; sourceTree = "<group>"; };
+		3F9B69EF1CDE167A00C0C6DD /* GLWImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWImageModel.h; sourceTree = "<group>"; };
+		3F9B69F01CDE167A00C0C6DD /* GLWImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWImageModel.m; sourceTree = "<group>"; };
+		3FA512EF1CD4D3E300524323 /* Flower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA512F31CD4D3E300524323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FA512F51CD4D3E300524323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FA512F61CD4D3E300524323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FA512FE1CD4D3E300524323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA513011CD4D3E300524323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA513031CD4D3E300524323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBEB00F1CDEF67C007CA8AD /* GLWShowWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWShowWebViewController.h; sourceTree = "<group>"; };
+		3FBEB0101CDEF67C007CA8AD /* GLWShowWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWShowWebViewController.m; sourceTree = "<group>"; };
+		3FBEB0111CDEF67C007CA8AD /* GLWShowWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWShowWebViewController.xib; sourceTree = "<group>"; };
+		3FBEB0141CDF188D007CA8AD /* GLWEncyclopediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWEncyclopediaModel.h; sourceTree = "<group>"; };
+		3FBEB0151CDF188D007CA8AD /* GLWEncyclopediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWEncyclopediaModel.m; sourceTree = "<group>"; };
+		3FBEB0171CDF1FC2007CA8AD /* EncyclopediaList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EncyclopediaList.plist; sourceTree = "<group>"; };
+		3FBEB0191CDF56FB007CA8AD /* GLWEncyClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWEncyClassViewController.h; sourceTree = "<group>"; };
+		3FBEB01A1CDF56FB007CA8AD /* GLWEncyClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWEncyClassViewController.m; sourceTree = "<group>"; };
+		3FBEB01C1CDF58B0007CA8AD /* GLWEncyViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWEncyViewCell.h; sourceTree = "<group>"; };
+		3FBEB01D1CDF58B0007CA8AD /* GLWEncyViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWEncyViewCell.m; sourceTree = "<group>"; };
+		3FBEB01E1CDF58B0007CA8AD /* GLWEncyViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWEncyViewCell.xib; sourceTree = "<group>"; };
+		3FBEB0211CDF5A0D007CA8AD /* GLWEncyClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWEncyClassModel.h; sourceTree = "<group>"; };
+		3FBEB0221CDF5A0D007CA8AD /* GLWEncyClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWEncyClassModel.m; sourceTree = "<group>"; };
+		3FBEB0241CDF9FF2007CA8AD /* GLWLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWLoginController.h; sourceTree = "<group>"; };
+		3FBEB0251CDF9FF2007CA8AD /* GLWLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWLoginController.m; sourceTree = "<group>"; };
+		3FBEB0261CDF9FF2007CA8AD /* GLWLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWLoginController.xib; sourceTree = "<group>"; };
+		3FBEB0291CDFAA9A007CA8AD /* GLWRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWRegisterController.h; sourceTree = "<group>"; };
+		3FBEB02A1CDFAA9A007CA8AD /* GLWRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWRegisterController.m; sourceTree = "<group>"; };
+		3FBEB02B1CDFAA9A007CA8AD /* GLWRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWRegisterController.xib; sourceTree = "<group>"; };
+		3FCA54D21CDB68CB00612E79 /* GLWSubHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWSubHomeModel.h; sourceTree = "<group>"; };
+		3FCA54D31CDB68CB00612E79 /* GLWSubHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWSubHomeModel.m; sourceTree = "<group>"; };
+		3FCA54D51CDB7EA100612E79 /* GLWNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWNewsController.h; sourceTree = "<group>"; };
+		3FCA54D61CDB7EA100612E79 /* GLWNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWNewsController.m; sourceTree = "<group>"; };
+		3FCA54D81CDBA48A00612E79 /* GLWVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWVideoViewController.h; sourceTree = "<group>"; };
+		3FCA54D91CDBA48A00612E79 /* GLWVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWVideoViewController.m; sourceTree = "<group>"; };
+		3FCA54DB1CDBA49500612E79 /* GLWImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWImageViewController.h; sourceTree = "<group>"; };
+		3FCA54DC1CDBA49500612E79 /* GLWImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWImageViewController.m; sourceTree = "<group>"; };
+		3FCD2DD11CDD803E003AAB16 /* GLWVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWVideoModel.h; sourceTree = "<group>"; };
+		3FCD2DD21CDD803E003AAB16 /* GLWVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWVideoModel.m; sourceTree = "<group>"; };
+		3FCD2DD41CDD84CA003AAB16 /* GLWVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWVideoCell.h; sourceTree = "<group>"; };
+		3FCD2DD51CDD84CA003AAB16 /* GLWVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWVideoCell.m; sourceTree = "<group>"; };
+		3FCD2DD61CDD84CA003AAB16 /* GLWVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWVideoCell.xib; sourceTree = "<group>"; };
+		3FCE9CEE1CD6018900385620 /* GLWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWBaseViewController.h; sourceTree = "<group>"; };
+		3FCE9CEF1CD6018900385620 /* GLWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWBaseViewController.m; sourceTree = "<group>"; };
+		3FCE9CF41CD601B200385620 /* GLWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWRootViewController.h; sourceTree = "<group>"; };
+		3FCE9CF51CD601B200385620 /* GLWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWRootViewController.m; sourceTree = "<group>"; };
+		3FCE9D001CD6036D00385620 /* GLWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWHomeViewController.h; sourceTree = "<group>"; };
+		3FCE9D011CD6036D00385620 /* GLWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWHomeViewController.m; sourceTree = "<group>"; };
+		3FCE9D031CD6039500385620 /* GLWEncyclopediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWEncyclopediaViewController.h; sourceTree = "<group>"; };
+		3FCE9D041CD6039500385620 /* GLWEncyclopediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWEncyclopediaViewController.m; sourceTree = "<group>"; };
+		3FCE9D061CD603A300385620 /* GLWMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWMineViewController.h; sourceTree = "<group>"; };
+		3FCE9D071CD603A300385620 /* GLWMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWMineViewController.m; sourceTree = "<group>"; };
+		3FD798D91CDAFC9A00E3BDE6 /* GLWSubHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWSubHomeCell.h; sourceTree = "<group>"; };
+		3FD798DA1CDAFC9A00E3BDE6 /* GLWSubHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWSubHomeCell.m; sourceTree = "<group>"; };
+		3FD798DE1CDB025000E3BDE6 /* GLWSubHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWSubHomeCell.xib; sourceTree = "<group>"; };
+		3FFE24871CD9A79500573046 /* GLWHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLWHeader.h; sourceTree = "<group>"; };
+		8F931879617F6784CEC3E7FD /* libPods-Flower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABECB802BBDA89081E855482 /* Pods-Flower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flower/Pods-Flower.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA512EC1CD4D3E300524323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC77305CB20C732B73D8A77 /* libPods-Flower.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5E57B93BF227F1A4B5A198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABECB802BBDA89081E855482 /* Pods-Flower.debug.xcconfig */,
+				05CEAA388D0845ADF6B9F16B /* Pods-Flower.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FA512E61CD4D3E300524323 = {
+			isa = PBXGroup;
+			children = (
+				3FA512F11CD4D3E300524323 /* Flower */,
+				3FA512F01CD4D3E300524323 /* Products */,
+				3F5E57B93BF227F1A4B5A198 /* Pods */,
+				4CD0B90307AF03E9D2227E1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA512F01CD4D3E300524323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA512EF1CD4D3E300524323 /* Flower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA512F11CD4D3E300524323 /* Flower */ = {
+			isa = PBXGroup;
+			children = (
+				3FA512F51CD4D3E300524323 /* AppDelegate.h */,
+				3FA512F61CD4D3E300524323 /* AppDelegate.m */,
+				3FCE9CF41CD601B200385620 /* GLWRootViewController.h */,
+				3FCE9CF51CD601B200385620 /* GLWRootViewController.m */,
+				3FCE9CEE1CD6018900385620 /* GLWBaseViewController.h */,
+				3FCE9CEF1CD6018900385620 /* GLWBaseViewController.m */,
+				3FBEB00F1CDEF67C007CA8AD /* GLWShowWebViewController.h */,
+				3FBEB0101CDEF67C007CA8AD /* GLWShowWebViewController.m */,
+				3FBEB0111CDEF67C007CA8AD /* GLWShowWebViewController.xib */,
+				3FFE24871CD9A79500573046 /* GLWHeader.h */,
+				3FA512FE1CD4D3E300524323 /* Assets.xcassets */,
+				3FCE9CEB1CD600B600385620 /* Home */,
+				3FCE9CEC1CD600C600385620 /* Encyclopedia */,
+				3FCE9CED1CD6011800385620 /* Mine */,
+				3FA512F21CD4D3E300524323 /* Supporting Files */,
+			);
+			path = Flower;
+			sourceTree = "<group>";
+		};
+		3FA512F21CD4D3E300524323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA512F31CD4D3E300524323 /* main.m */,
+				3FA513031CD4D3E300524323 /* Info.plist */,
+				3FA513001CD4D3E300524323 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FCE9CEB1CD600B600385620 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE9CFC1CD6031600385620 /* Models */,
+				3FCE9CFB1CD6030F00385620 /* Views */,
+				3FCE9CFA1CD602F700385620 /* Controllers */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		3FCE9CEC1CD600C600385620 /* Encyclopedia */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE9CF91CD6022C00385620 /* Models */,
+				3FCE9CF81CD6022100385620 /* Views */,
+				3FCE9CF71CD6020F00385620 /* Controllers */,
+			);
+			name = Encyclopedia;
+			sourceTree = "<group>";
+		};
+		3FCE9CED1CD6011800385620 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE9CFD1CD6032900385620 /* Models */,
+				3FCE9CFF1CD6034300385620 /* Views */,
+				3FCE9CFE1CD6033500385620 /* Controllers */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		3FCE9CF71CD6020F00385620 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE9D031CD6039500385620 /* GLWEncyclopediaViewController.h */,
+				3FCE9D041CD6039500385620 /* GLWEncyclopediaViewController.m */,
+				3FBEB0191CDF56FB007CA8AD /* GLWEncyClassViewController.h */,
+				3FBEB01A1CDF56FB007CA8AD /* GLWEncyClassViewController.m */,
+				3FBEB0171CDF1FC2007CA8AD /* EncyclopediaList.plist */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3FCE9CF81CD6022100385620 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEB01C1CDF58B0007CA8AD /* GLWEncyViewCell.h */,
+				3FBEB01D1CDF58B0007CA8AD /* GLWEncyViewCell.m */,
+				3FBEB01E1CDF58B0007CA8AD /* GLWEncyViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3FCE9CF91CD6022C00385620 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEB0141CDF188D007CA8AD /* GLWEncyclopediaModel.h */,
+				3FBEB0151CDF188D007CA8AD /* GLWEncyclopediaModel.m */,
+				3FBEB0211CDF5A0D007CA8AD /* GLWEncyClassModel.h */,
+				3FBEB0221CDF5A0D007CA8AD /* GLWEncyClassModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3FCE9CFA1CD602F700385620 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE9D001CD6036D00385620 /* GLWHomeViewController.h */,
+				3FCE9D011CD6036D00385620 /* GLWHomeViewController.m */,
+				3F92D0791CDA29E9002BF405 /* GLWSubHomeController.h */,
+				3F92D07A1CDA29E9002BF405 /* GLWSubHomeController.m */,
+				3FCA54D51CDB7EA100612E79 /* GLWNewsController.h */,
+				3FCA54D61CDB7EA100612E79 /* GLWNewsController.m */,
+				3FCA54D81CDBA48A00612E79 /* GLWVideoViewController.h */,
+				3FCA54D91CDBA48A00612E79 /* GLWVideoViewController.m */,
+				3FCA54DB1CDBA49500612E79 /* GLWImageViewController.h */,
+				3FCA54DC1CDBA49500612E79 /* GLWImageViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3FCE9CFB1CD6030F00385620 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F92D07C1CDA3892002BF405 /* GLWImageScrollHearderView.h */,
+				3F92D07D1CDA3892002BF405 /* GLWImageScrollHearderView.m */,
+				3FD798D91CDAFC9A00E3BDE6 /* GLWSubHomeCell.h */,
+				3FD798DA1CDAFC9A00E3BDE6 /* GLWSubHomeCell.m */,
+				3FD798DE1CDB025000E3BDE6 /* GLWSubHomeCell.xib */,
+				3F8931441CDC33BC00CC7002 /* GLWNewsCell.h */,
+				3F8931451CDC33BC00CC7002 /* GLWNewsCell.m */,
+				3F8931461CDC33BC00CC7002 /* GLWNewsCell.xib */,
+				3F8931491CDCED5800CC7002 /* GLWNewsSingelImageCell.h */,
+				3F89314A1CDCED5800CC7002 /* GLWNewsSingelImageCell.m */,
+				3F89314B1CDCED5800CC7002 /* GLWNewsSingelImageCell.xib */,
+				3FCD2DD41CDD84CA003AAB16 /* GLWVideoCell.h */,
+				3FCD2DD51CDD84CA003AAB16 /* GLWVideoCell.m */,
+				3FCD2DD61CDD84CA003AAB16 /* GLWVideoCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3FCE9CFC1CD6031600385620 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F92D07F1CDA389E002BF405 /* GLWScrollModel.h */,
+				3F92D0801CDA389E002BF405 /* GLWScrollModel.m */,
+				3FCA54D21CDB68CB00612E79 /* GLWSubHomeModel.h */,
+				3FCA54D31CDB68CB00612E79 /* GLWSubHomeModel.m */,
+				3F8931411CDC21C500CC7002 /* GLWNewsModel.h */,
+				3F8931421CDC21C500CC7002 /* GLWNewsModel.m */,
+				3FCD2DD11CDD803E003AAB16 /* GLWVideoModel.h */,
+				3FCD2DD21CDD803E003AAB16 /* GLWVideoModel.m */,
+				3F9B69EF1CDE167A00C0C6DD /* GLWImageModel.h */,
+				3F9B69F01CDE167A00C0C6DD /* GLWImageModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3FCE9CFD1CD6032900385620 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F376FC31CE02E940056FCE8 /* GLWInformationModel.h */,
+				3F376FC41CE02E940056FCE8 /* GLWInformationModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3FCE9CFE1CD6033500385620 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE9D061CD603A300385620 /* GLWMineViewController.h */,
+				3FCE9D071CD603A300385620 /* GLWMineViewController.m */,
+				3FBEB0241CDF9FF2007CA8AD /* GLWLoginController.h */,
+				3FBEB0251CDF9FF2007CA8AD /* GLWLoginController.m */,
+				3FBEB0261CDF9FF2007CA8AD /* GLWLoginController.xib */,
+				3FBEB0291CDFAA9A007CA8AD /* GLWRegisterController.h */,
+				3FBEB02A1CDFAA9A007CA8AD /* GLWRegisterController.m */,
+				3FBEB02B1CDFAA9A007CA8AD /* GLWRegisterController.xib */,
+				3F376FBE1CE0231D0056FCE8 /* GLWInformationController.h */,
+				3F376FBF1CE0231D0056FCE8 /* GLWInformationController.m */,
+				3F376FC61CE02F5E0056FCE8 /* GLWInformationList.plist */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3FCE9CFF1CD6034300385620 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CD0B90307AF03E9D2227E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F931879617F6784CEC3E7FD /* libPods-Flower.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA512EE1CD4D3E300524323 /* Flower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA513061CD4D3E300524323 /* Build configuration list for PBXNativeTarget "Flower" */;
+			buildPhases = (
+				741800AD077B95C8C62317D6 /* [CP] Check Pods Manifest.lock */,
+				3FA512EB1CD4D3E300524323 /* Sources */,
+				3FA512EC1CD4D3E300524323 /* Frameworks */,
+				3FA512ED1CD4D3E300524323 /* Resources */,
+				8A110007BE748A2112C1AB73 /* [CP] Embed Pods Frameworks */,
+				58236D8FEBF204511F72B561 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flower;
+			productName = Flower;
+			productReference = 3FA512EF1CD4D3E300524323 /* Flower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA512E71CD4D3E300524323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GLW;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = glw;
+				TargetAttributes = {
+					3FA512EE1CD4D3E300524323 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2K3DKF44GX;
+					};
+				};
+			};
+			buildConfigurationList = 3FA512EA1CD4D3E300524323 /* Build configuration list for PBXProject "Flower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA512E61CD4D3E300524323;
+			productRefGroup = 3FA512F01CD4D3E300524323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA512EE1CD4D3E300524323 /* Flower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA512ED1CD4D3E300524323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD2DD81CDD84CA003AAB16 /* GLWVideoCell.xib in Resources */,
+				3FA513021CD4D3E300524323 /* LaunchScreen.storyboard in Resources */,
+				3FBEB0201CDF58B0007CA8AD /* GLWEncyViewCell.xib in Resources */,
+				3FA512FF1CD4D3E300524323 /* Assets.xcassets in Resources */,
+				3FD798DF1CDB025000E3BDE6 /* GLWSubHomeCell.xib in Resources */,
+				3FBEB0181CDF1FC2007CA8AD /* EncyclopediaList.plist in Resources */,
+				3F376FC71CE02F5E0056FCE8 /* GLWInformationList.plist in Resources */,
+				3F89314D1CDCED5800CC7002 /* GLWNewsSingelImageCell.xib in Resources */,
+				3F8931481CDC33BC00CC7002 /* GLWNewsCell.xib in Resources */,
+				3FBEB0281CDF9FF2007CA8AD /* GLWLoginController.xib in Resources */,
+				3FBEB0131CDEF67C007CA8AD /* GLWShowWebViewController.xib in Resources */,
+				3FBEB02D1CDFAA9A007CA8AD /* GLWRegisterController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58236D8FEBF204511F72B561 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flower/Pods-Flower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		741800AD077B95C8C62317D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A110007BE748A2112C1AB73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flower/Pods-Flower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA512EB1CD4D3E300524323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCE9CF01CD6018900385620 /* GLWBaseViewController.m in Sources */,
+				3F8931431CDC21C500CC7002 /* GLWNewsModel.m in Sources */,
+				3FCA54DA1CDBA48A00612E79 /* GLWVideoViewController.m in Sources */,
+				3F8931471CDC33BC00CC7002 /* GLWNewsCell.m in Sources */,
+				3F92D0811CDA389E002BF405 /* GLWScrollModel.m in Sources */,
+				3FCA54D41CDB68CB00612E79 /* GLWSubHomeModel.m in Sources */,
+				3FCE9D051CD6039500385620 /* GLWEncyclopediaViewController.m in Sources */,
+				3F92D07B1CDA29E9002BF405 /* GLWSubHomeController.m in Sources */,
+				3FCD2DD31CDD803E003AAB16 /* GLWVideoModel.m in Sources */,
+				3FA512F71CD4D3E300524323 /* AppDelegate.m in Sources */,
+				3FBEB0161CDF188D007CA8AD /* GLWEncyclopediaModel.m in Sources */,
+				3FCD2DD71CDD84CA003AAB16 /* GLWVideoCell.m in Sources */,
+				3F89314C1CDCED5800CC7002 /* GLWNewsSingelImageCell.m in Sources */,
+				3FBEB01B1CDF56FB007CA8AD /* GLWEncyClassViewController.m in Sources */,
+				3F92D07E1CDA3892002BF405 /* GLWImageScrollHearderView.m in Sources */,
+				3FA512F41CD4D3E300524323 /* main.m in Sources */,
+				3F9B69F11CDE167A00C0C6DD /* GLWImageModel.m in Sources */,
+				3FBEB02C1CDFAA9A007CA8AD /* GLWRegisterController.m in Sources */,
+				3FBEB0121CDEF67C007CA8AD /* GLWShowWebViewController.m in Sources */,
+				3FD798DC1CDAFC9A00E3BDE6 /* GLWSubHomeCell.m in Sources */,
+				3FCE9D021CD6036D00385620 /* GLWHomeViewController.m in Sources */,
+				3FBEB0231CDF5A0D007CA8AD /* GLWEncyClassModel.m in Sources */,
+				3FBEB01F1CDF58B0007CA8AD /* GLWEncyViewCell.m in Sources */,
+				3FCA54DD1CDBA49500612E79 /* GLWImageViewController.m in Sources */,
+				3F376FC11CE0231D0056FCE8 /* GLWInformationController.m in Sources */,
+				3FBEB0271CDF9FF2007CA8AD /* GLWLoginController.m in Sources */,
+				3FCA54D71CDB7EA100612E79 /* GLWNewsController.m in Sources */,
+				3F376FC51CE02E940056FCE8 /* GLWInformationModel.m in Sources */,
+				3FCE9CF61CD601B200385620 /* GLWRootViewController.m in Sources */,
+				3FCE9D081CD603A300385620 /* GLWMineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FA513001CD4D3E300524323 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA513011CD4D3E300524323 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA513041CD4D3E300524323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FA513051CD4D3E300524323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA513071CD4D3E300524323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABECB802BBDA89081E855482 /* Pods-Flower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Flower/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glw.com.Flower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3FA513081CD4D3E300524323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CEAA388D0845ADF6B9F16B /* Pods-Flower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Flower/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glw.com.Flower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA512EA1CD4D3E300524323 /* Build configuration list for PBXProject "Flower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA513041CD4D3E300524323 /* Debug */,
+				3FA513051CD4D3E300524323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA513061CD4D3E300524323 /* Build configuration list for PBXNativeTarget "Flower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA513071CD4D3E300524323 /* Debug */,
+				3FA513081CD4D3E300524323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA512E71CD4D3E300524323 /* Project object */;
+}
